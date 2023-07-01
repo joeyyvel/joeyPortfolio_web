@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="nav">
+     <ul class="nav__links">
+        <li class="nav__link"><a href="#section--1" class="nav__item">Main</a></li>
+        <li class="nav__link"><a href="#section--2" class="nav__item">My Projects</a></li>
+        <li class="nav__link"><a href="#section--3" class="nav__item">My Skills</a></li>
+        <li class="nav__link"><a href="#section--4" class="nav__item">Contact Me</a></li>
+        <li class="nav__link"><a href="#section--footer" class="nav__item">Footer</a></li>
+     </ul>
+  </nav>
+
+  <section class="section" id="section--1"> Main Page
+
+    <div class="sectionOne"> 
+     <div class="myPhoto">
+      <img src="/image/joey.jpg" alt="" id="joeyPhoto">
+    </div>
+     <div class="myIntro"> 
+     <h1>
+       Hi!
+         <!--- highlight effect color --->
+         <span class="highlight">I Am</span>
+         <br>
+         <span class="highlight">Joey Sayadi</span>
+     </h1>
+       <h4>but you can call me Yeoj, i am front-end developer.</h4>
+    </div>
+  </div>
+
+  </section>
+  <section class="section" id="section--2">
+     <h1 class="sample--projects">Sample Projects</h1>
+     <div class="main--container">
+      <!--- Bank Sample project --->
+      <div class="sampleDIV"> 
+        <div class="bankTitle"> <h3 class="appTitle"> Bank Sample  </h3> 
+        <div class="bankPhoto">
+            <img src="/image/joeyBank.png" alt="joeyBank" id="joeyBankPhoto">
+          <div class="para">
+             <p> Mini bank App simply lets you withdraw, transfer, inquire, check transaction history
+               and change your personal pin on the machine.
+             </p>
+             <button class="bank__btn1">btn1</button>
+             <button class="bank__btn2">btn2</button>
+
+          </div>
+        </div>
+      </div> 
+      </div>
+      <!--- Simple Game Project --->
+      <div class="sampleDIV">
+        <div class="gameTitle"> <h3 class="appTitle"> Simple Game</h3> 
+          <div class="gamePhoto">
+             <img src="/image/gamePhoto.png" alt="gamePhoto" id="gamePhoto">
+           <div class="paraGame">
+            <p>Dice game, a simple project that lets two players roll the dice consecutively and sum up the total to reach 100 points and win. </p>
+            <button class="game__btn1">btn1</button>
+            <button class="game__btn2">btn2</button>
+
+           </div>
+          </div>
+        </div>         
+        </div>
+      <!--- Hotel simple projects --->
+      <div class="sampleDIV"> 
+         <div class="hotelTitle"> <h3 class="appTitle">Homes and Condo Rentals</h3> 
+          <div class="hotelPhoto">
+              <img src="/image/hotel.png" alt="hotelPhoto" id="hotelPhoto">
+              <div class="paraHotel">
+              <p> find the perfect place to stay at an amazing price. lets property owners rent out their spaces to travelers looking for a place to stay.</p>          
+             <button class="hotel__btn1">btn1</button>
+             <button class="hotel__btn2">btn2</button>
+            
+            </div>
+            </div>              
+         </div>
+         </div>
+     
+       <!--- Bootstrap school registration project --->  
+      <div class="sampleDIV"> 
+           <div class="schoolTitle"> <h3 class="appTitle"> School Registration / Bootstrap </h3>
+              <img src="/image/school.png" alt="schoolPhoto" id="schoolPhoto">
+              <div class="paraSchool">
+                  <p>  School Registration App lets you register and be
+                    a member of spongebob community circle. ongoing development...</p>
+              <button class="school__btn1">btn1</button>
+              <button class="school__btn2">btn2</button>
+              
+              </div>
+           </div>
+        </div>  
+
+     </div>
+   
+  </section>
+  <section class="section" id="section--3">
+     <h1>My Skills</h1>
+     <div class="gallery-container">
+      <div>Content 6</div>
+      <div>Content 6</div>
+      <div>Content 6</div>
+      <div>Content 6</div>
+      <div>Content 6</div>
+      <div>Content 6</div>
+     </div>
+     
+  </section>
+  <section class="section" id="section--4">
+    <h1>Contact Me</h1>
+  </section>
+  <section class="section--footer" id="section--footer">footer section</section>
+
+
+<script src="joey.js"></script>
+
+</body>
+</html>
